@@ -1,0 +1,588 @@
+body
+{
+    background-color: black;
+}
+
+/* Header (1) */
+.logo-img
+{
+    margin: 20px 30px 20px 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+.logo-img img {
+    max-width: 100%;
+    max-height: 100%;
+    height: auto;
+    width: auto;
+}
+
+.nav-menu
+{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    display: table;
+    height: 100%;
+    width: 100%;
+}
+.nav-menu li
+{
+    display: inline-block;
+    height: 100%;
+    margin: 0 auto;
+}
+.nav-menu li a 
+{
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 30px 30px;
+    text-decoration: none;
+}
+.nav-menu li .active
+{
+    color: orange;
+}
+.nav-menu li a:hover 
+{
+    color: orange;
+}
+.nav-menu .cart {
+    max-width: 100%;
+    max-height: 100%;
+    height: 40px;
+    width: 40px;
+}
+/* End Header */
+
+/* Welcome Part (2) */
+.welcome-part
+{
+    position: relative;
+    height: 700px;
+    display: block;
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: aliceblue;
+    background-image: url("../img/welcome.jpg");
+}
+.welcome-center
+{
+    width: 500px;
+    height: 300px;
+    position: absolute;
+    text-align: center;
+    top: 50%;
+    left: 50%;
+    margin: -150px 0 0 -250px;
+}
+.welcome-center .welcome-p
+{
+    color: #fea526;
+    letter-spacing: 0.8px;
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 13px;
+}
+.welcome-center .welcome-h1-1
+{
+    font-size: 45px;
+    color: white;
+    text-align: center;
+    font-style: italic;
+    font-weight: 200;
+}
+.welcome-center .welcome-h1-2
+{
+    font-size: 45px;
+    color: white;
+    text-align: center;
+    font-style: italic;
+    font-weight: 500;
+}
+.welcome-center .welcome-button
+{
+    display: block;
+    color: white;
+    text-align: center;
+    font-size: 12px;
+    font-weight: 400;
+    padding: 10px;
+    margin: 0 150px;
+    background-color: #fea526;
+    color: white;
+    text-decoration: none;
+}
+.welcome-center .welcome-button:hover
+{
+    background-color: #ff9500;
+}
+/* Welcome Part End */
+
+/* Featured Products */
+.featured-part
+{
+    position: relative;
+    height: 630px;
+    display: block;
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: aliceblue;
+    background-image: url("../img/white_back.jpg");
+}
+.featured-center
+{
+    width: 500px;
+    padding-top: 20px;
+    padding-bottom: 70px;
+    position: relative;
+    text-align: center;
+    top: 10%;
+    left: 50%;
+    margin: 0px 0 0 -250px;
+}
+.featured-center .featured-h1
+{
+    font-size: 30px;
+    color: black;
+    text-align: center;
+    font-style: italic;
+    font-weight: 500;
+}
+.featured-center .featured-h1::after
+{
+    content: '//';
+    font-style: normal;
+    display: block;
+    padding: 5px;
+    font-weight: 900;
+    font-size: 17px;
+    line-height: 1em;
+    font-family: fantasy;
+    letter-spacing: 1px;
+    color: #fea526;
+}
+.featured-center .featured-p
+{
+    font-size: 15px;
+    color: rgb(105, 98, 98);
+    text-align: center;
+    font-weight: 400;
+    margin: 0;
+}
+
+.featured-ul
+{
+    display: block;
+    position: absolute;
+    list-style-type: disc;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 40px;
+    padding-top: 10px;
+    padding-left: 147px;
+}
+.featured-ul li
+{
+    list-style: none;
+    float: left;
+}
+.featured-ul li .img-part
+{
+    border: 1px solid;
+    text-align: center;
+    background-color: #fff;
+    padding: 1.428em;
+    position: relative;
+    display: block;
+}
+.featured-ul li .img-part a
+{
+    text-decoration: none;
+}
+.featured-ul li .img-part a img
+{
+    width: 200px;
+    height: 200px;
+    height: auto;
+    display: block;
+}
+.featured-ul li .post-content
+{
+    font-weight: 400;
+    padding: 0;
+    margin: 0;
+    max-width: 200px;
+}
+.featured-ul li .post-content h2
+{
+    text-transform: none;
+    color: black;
+    font-weight: 400;
+    font-size: 14px;
+    padding-bottom: 20px;
+    height: 60px;
+}
+.featured-ul li .post-content .price-tag
+{
+    text-transform: none;
+    color: black;
+    text-align: center;
+    font-weight: 800;
+    font-size: 14px;
+    height: 30px;
+}
+/* Featured Products End */
+
+/* Part BG-3 */
+.bg-3
+{
+    position: relative;
+    height: 550px;
+    display: block;
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url("../img/bg-3.jpg");
+}
+.bg-3-div
+{
+    width: 500px;
+    height: 300px;
+    position: absolute;
+    text-align: center;
+    top: 50%;
+    left: 5%;
+    margin: -150px 0 0 -25px;
+}
+.bg-3-div .welcome-p
+{
+    color: #fea526;
+    letter-spacing: 0.8px;
+    text-transform: uppercase;
+    text-align: left;
+    font-size: 13px;
+    margin: 0;
+}
+.bg-3-div .welcome-h1-1
+{
+    font-size: 45px;
+    color: white;
+    text-align: left;
+    font-style: italic;
+    font-weight: 200;
+    margin-bottom: -10px;
+}
+.bg-3-div .welcome-h1-2
+{
+    font-size: 45px;
+    color: white;
+    text-align: left;
+    font-style: italic;
+    font-weight: 500;
+    color: #fea526;
+    margin-bottom: -10px;
+}
+.bg-3-div .welcome-p2
+{
+    color: white;
+    letter-spacing: 0.8px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    text-align: left;
+    font-size: 15px;
+    margin: 0;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+.bg-3-div .welcome-button
+{
+    display: block;
+    color: white;
+    text-align: center;
+    font-size: 12px;
+    font-weight: 400;
+    padding: 10px;
+    margin: 0 400px 0 0;
+    background-color: #fea526;
+    color: white;
+    text-decoration: none;
+}
+.bg-3-div .welcome-button:hover
+{
+    background-color: #ff9500;
+}
+/* Part BG-3 */
+
+/* Recent */
+.browse-more-button
+{
+    display: block;
+    color: white;
+    position: relative;
+    text-align: center;
+    font-size: 12px;
+    font-weight: 400;
+    padding: 10px;
+    margin: 410px 450px 0px 450px;
+    background-color: #fea526;
+    color: white;
+    text-decoration: none;
+}
+.browse-more-button:hover
+{
+    color: white;
+    background-color: #ff9500;
+}
+/* Recent End */
+
+/* Part BG-4 */
+.bg-4
+{
+    position: relative;
+    height: 450px;
+    display: block;
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url("../img/bg-4.jpg");
+}
+.bg-4-div
+{
+    width: 500px;
+    height: 300px;
+    position: absolute;
+    text-align: center;
+    top: 50%;
+    right: 0%;
+    margin: -110px -50px 0 0;
+}
+.bg-4-div .welcome-p
+{
+    color: #fea526;
+    letter-spacing: 0.8px;
+    text-transform: uppercase;
+    text-align: left;
+    font-size: 13px;
+    margin: 0;
+}
+.bg-4-div .welcome-h1-1
+{
+    font-size: 45px;
+    color: white;
+    text-align: left;
+    font-style: italic;
+    font-weight: 400;
+    margin-bottom: -10px;
+}
+.bg-4-div .welcome-h1-2
+{
+    font-size: 45px;
+    color: white;
+    text-align: left;
+    font-style: italic;
+    font-weight: 500;
+    color: #fea526;
+    margin-bottom: -10px;
+}
+.bg-4-div .welcome-p2
+{
+    color: white;
+    letter-spacing: 0.8px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    text-align: left;
+    font-size: 12px;
+    margin: 0 80px 0 0;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+.bg-4-div .welcome-button
+{
+    display: block;
+    color: white;
+    text-align: center;
+    font-size: 12px;
+    font-weight: 400;
+    padding: 10px;
+    margin: 0 400px 0 0;
+    background-color: white;
+    color: black;
+    text-decoration: none;
+}
+.bg-4-div .welcome-button:hover
+{
+    background-color: #959595;
+}
+/* Part BG-4 End */
+
+/* Part BG-5 */
+.bg-5
+{
+    position: relative;
+    height: 300px;
+    display: block;
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: #fea526;
+}
+.bg-5-div
+{
+    width: 500px;
+    height: 250px;
+    position: absolute;
+    text-align: center;
+    top: 50%;
+    left: 50%;
+    margin: -100px -250px;
+}
+.bg-5-div .welcome-p
+{
+    color: black;
+    letter-spacing: 0.8px;
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 13px;
+    margin: 0;
+}
+.bg-5-div .welcome-h1-1
+{
+    font-size: 45px;
+    color: black;
+    text-align: center;
+    font-style: italic;
+    font-weight: 400;
+    margin-bottom: -10px;
+}
+.bg-5-div .welcome-h1-2
+{
+    font-size: 45px;
+    color: black;
+    text-align: center;
+    font-style: italic;
+    font-weight: 500;
+    margin-bottom: -10px;
+}
+.bg-5-div .welcome-p2
+{
+    color: black;
+    letter-spacing: 0.8px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    text-align: center;
+    font-size: 12px;
+    margin: 0;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+.bg-5-div .welcome-button
+{
+    border: solid 1px black;
+    display: block;
+    color: white;
+    text-align: center;
+    font-size: 12px;
+    font-weight: 400;
+    padding: 10px 2px;
+    margin: 0 150px;
+    background-color: black;
+    text-decoration: none;
+}
+.bg-5-div .welcome-button:hover
+{
+    color: black;
+    background-color: #fea526;
+}
+/* Part BG-5 End */
+
+/* Footer */
+.footer
+{
+    position: relative;
+    height: 300px;
+    display: block;
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: #121215;
+}
+.footer-div
+{
+    width: 500px;
+    height: 250px;
+    position: absolute;
+    text-align: center;
+    top: 50%;
+    left: 50%;
+    margin: -105px -250px;
+}
+.footer-div img
+{
+    display: block;
+    padding: 0 170px;
+}
+.contact-address
+{
+    padding-top: 180px;
+    overflow: hidden;
+    font-size: 1em;
+    margin-bottom: 1.1em;
+}
+.address-right
+{
+    color: rgb(104, 104, 104);
+    width: 48%;
+    text-align: left;
+    float: right;
+}
+.address-left
+{
+    color: rgb(104, 104, 104);
+    width: 48%;
+    text-align: right;
+    float: left;
+}
+/* Footer End */
+
+/* Foot Footer */
+.foot-footer
+{
+    position: relative;
+    height: 50px;
+    display: block;
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: black;
+}
+.foot-footer-div
+{
+    width: 500px;
+    height: 50px;
+    position: absolute;
+    text-align: center;
+    top: 50%;
+    left: 50%;
+    margin: -25px -250px;
+}
+.foot-footer-div .welcome-p2
+{
+    color: white;
+    letter-spacing: 0.8px;
+    letter-spacing: 1px;
+    text-align: center;
+    font-size: 12px;
+    margin: 0;
+    padding-top: 15px;
+    padding-bottom: 10px;
+}
+/* Foot Footer End */
